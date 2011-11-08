@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="heading">Träningsdagbok</string>
+    <string name="app_name">TraningBook</string>
+    <string name="add">Lägg till träning</string>
+    <string name="look">Kolla historik</string>
+    <string name="addnow">Uppdatera!</string>
+    <string name="watchnow">Kolla på allt!</string>
+    <string name="comment">Lägg till en kommentar</string>
+    <string name="delete">Ta bort</string>
+    <string name="chooseactivity">Välj aktivitet</string>
+    <string name="cycleheading">CYKLING</string>
+    <string name="runnerheading">LÖPNING</string>
+    <string name="gymheading">GYM</string>
+    <string name="kajakheading">KAJAK</string>
+	<string name="watchheading">MIN TRÄNING</string>
+</resources>

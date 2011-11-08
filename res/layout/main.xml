@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bak"
+    android:orientation="vertical"
+     >
+
+    <TextView
+        android:layout_width="250dip"
+        android:layout_height="wrap_content"
+        android:text="@string/heading"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="15dip"
+        android:layout_marginRight="50dip"
+        android:textColor="#ffffffff"
+        android:textSize="30dip"
+        android:textStyle="bold"
+        
+
+         />
+
+   
+
+    <Button
+        android:id="@+id/look"
+       android:layout_width="200dip"
+       android:layout_height="70dip"
+        
+        android:text="@string/look" 
+         android:layout_marginLeft="60dip"
+        android:layout_marginTop="2dip"
+        android:layout_marginRight="50dip"
+        android:layout_marginBottom="20dip"/>
+    
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chooseactivity"
+        android:layout_marginLeft="90dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+    
+
+    <HorizontalScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+            
+         >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"  >
+            
+ 			<ImageButton
+                 android:id="@+id/bikebutton"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/bike" />
+ 			<ImageButton
+                 android:id="@+id/gymbutton"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/gym" />
+ 			<ImageButton
+                 android:id="@+id/runbutton"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/runner" />
+ 			<ImageButton
+                 android:id="@+id/kajakbutton"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/kajak" />
+
+ 			
+
+        
+        </LinearLayout>
+    </HorizontalScrollView>
+    
+
+</LinearLayout>

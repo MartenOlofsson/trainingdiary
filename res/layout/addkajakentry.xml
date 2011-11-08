@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+        android:background="@drawable/traningbakgrund" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kajakheading" />
+
+    <Spinner
+        android:id="@+id/kajakspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0D0000"
+        android:text="@string/comment"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_marginLeft="30dip"
+        android:layout_marginBottom="10dip"/>
+
+    <EditText
+        android:id="@+id/commenttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+         >
+
+        <requestFocus />
+    </EditText>
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+         />
+
+    <Button
+        android:id="@+id/addnow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addnow"
+        android:layout_marginLeft="110dip" />
+
+
+
+</LinearLayout>
